@@ -1,4 +1,4 @@
-FROM senbazuru/php56
+FROM senbazuru/docker-php56
 MAINTAINER senbazuru
 
 RUN yum install -y --enablerepo=remi-php56,remi \
